@@ -1,4 +1,5 @@
 *.class
+.idea
 idea
 dependency-reduced-pom.xml
 
