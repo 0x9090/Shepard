@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 public class Shepard {
-    private static String ghURL = "git.hubteam.com";
+    private static String ghURL = "github.com";
     private static String ghUser;
     private static String ghPass;
     private static String temp = System.getProperty("java.io.tmpdir");
@@ -29,7 +29,7 @@ public class Shepard {
         github = new GitHub(ghUser, ghPass, ghURL);
         organizations = github.getOrganizations(ghUser);
 
-        /*pomMap = github.getPoms("alawrence/signals"); // get all POMs in a named repo
+        /*pomMap = github.getPoms("reponame"); // get all POMs in a named repo
         pomFile = new File(temp + "pom.xml");
 
 
