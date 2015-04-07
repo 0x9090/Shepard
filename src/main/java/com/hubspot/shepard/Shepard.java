@@ -54,7 +54,7 @@ public class Shepard {
         Console console  = System.console();
         char[] password;
 
-        System.out.println("Enter Hubteam Credentials");
+        System.out.println("Enter GitHub Credentials");
         ghUser = console.readLine("Username: ");
         if ((password = console.readPassword("%s", "Password: ")) != null) {
             ghPass = new String(password);
